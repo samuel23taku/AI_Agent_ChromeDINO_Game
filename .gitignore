@@ -1,0 +1,38 @@
+# Python virtual environment
+bin/
+include/
+lib/
+lib64/
+pyvenv.cfg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Data directory (adjust if you want to version control some data)
+data/
+
+# Shared libraries
+*.so
+
+# TensorFlow logs and checkpoints (if you're generating these)
+logs/
+*.ckpt
+*.pb
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+
+# Keep requirements.txt (don't ignore it)
+# requirements.txt
+
+# Ignore the shar file (assuming it's a shell archive)
+shar
